@@ -4,3 +4,5 @@ WikiMysore is an Android app which acts as a virtual guide for tourists visiting
 It is a Location provider.
 Works both in online and offline mode.
 Other services- hospitality and cab services.
+
+
