@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    tools:context=".MainActivity">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="246dp"
+        android:layout_marginTop="2dp"
+        android:scrollbars="horizontal" android:id="@+id/ScrollView">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:orientation="vertical"
+            android:id="@+id/linearLayout1"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:id="@+id/imageView11"
+                android:text="OLA Cabs
+-https://www.olacabs.com/car-rentals/mysore"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:textColor="#D3D3D3"
+                android:background="#2e2e30"
+                android:textSize="15dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:id="@+id/imageView12"
+                android:text="TAXI for sure Cabs
+ https://www.taxiforsure.com/mysore-cabs/"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:textColor="#D3D3D3"
+                android:background="#2e2e30"
+                android:textSize="15dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:id="@+id/imageView14"
+                android:text="Devi Travels -099809 09990"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:textColor="#D3D3D3"
+                android:background="#2e2e30"
+                android:textSize="15dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:id="@+id/imageView15"
+                android:text="Mysore Cabs -089706 63510"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:textColor="#D3D3D3"
+                android:background="#2e2e30"
+                android:textSize="15dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:id="@+id/imageView16"
+                android:text="Unity Cabs -0821 241 2136"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:textColor="#D3D3D3"
+                android:background="#2e2e30"
+                android:textSize="15dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

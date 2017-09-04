@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:id="@+id/imageView1"
+        android:text="Hotel"
+        android:fontFamily=""
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:textColor="#D3D3D3"
+        android:background="#2e2e30"
+        android:textSize="30dp"
+        android:onClick="Hotels"
+        android:layout_gravity="center_horizontal"
+        />
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:id="@+id/imageView2"
+        android:text="Cab Service"
+        android:fontFamily=""
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:textColor="#D3D3D3"
+        android:background="#2e2e30"
+        android:textSize="30dp"
+        android:onClick="CabServices"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:id="@+id/imageView3"
+        android:text="Hospital"
+        android:fontFamily=""
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:textColor="#D3D3D3"
+        android:background="#2e2e30"
+        android:textSize="30dp"
+        android:onClick="Hospitals"
+        android:layout_gravity="center_horizontal" />
+    <WebView
+        android:id="@+id/wb2"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:background="@drawable/background2"></WebView>
+
+
+</LinearLayout>

@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    tools:context=".MainActivity">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="246dp"
+        android:layout_marginTop="2dp"
+        android:scrollbars="horizontal" android:id="@+id/ScrollView">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:orientation="vertical"
+            android:id="@+id/linearLayout1"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:id="@+id/imageView11"
+                android:text="Fortune JP Palace | Mysuru ★★★★½#3, Abba Rd, Nazarbad, Mysore, Mysore, Karnataka, India, 570007"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:textColor="#D3D3D3"
+                android:background="#2e2e30"
+                android:textSize="15dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:id="@+id/imageView12"
+                android:text="Grand Maurya Resorts ★★★★No-86/87, Mysore-Hunsur Road, Hinkal, Mysore, Karnataka, India, 570017"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:textColor="#D3D3D3"
+                android:background="#2e2e30"
+                android:textSize="15dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:id="@+id/imageView13"
+                android:text="Hotel Lalitha Mahal Palace | Mysuru ★★★★★siddarathnagar, Mysore, Karnataka, India, 570011"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:textColor="#D3D3D3"
+                android:background="#2e2e30"
+                android:textSize="15dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:id="@+id/imageView14"
+                android:text="Empire - Restaurant | Mysore ★★★Adipampa Road, 8th Cross, VV Mohalla, Mysore, Karnataka, India, 570002"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:textColor="#D3D3D3"
+                android:background="#2e2e30"
+                android:textSize="15dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:id="@+id/imageView15"
+                android:text="Highway 18 | Mysore ★★★½Opp. Hotel Monarch. Hunsur Road, Mysore, Karnataka, IN"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:textColor="#D3D3D3"
+                android:background="#2e2e30"
+                android:textSize="15dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:id="@+id/imageView16"
+                android:text="Hotel Kings Kourt | Mysore Memories Restaurant ★★★★★JLB Road, Mysore, Karnataka, India, 570005"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:textColor="#D3D3D3"
+                android:background="#2e2e30"
+                android:textSize="15dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

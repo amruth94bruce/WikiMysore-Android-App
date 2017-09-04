@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    tools:context=".MainActivity">
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="40sp"
+    android:id="@+id/wiki"
+        android:textAlignment="center" />
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:id="@+id/imageView"
+            android:text="Where Am I"
+            android:gravity="center"
+            android:textColor="#D3D3D3"
+            android:background="#2e2e30"
+            android:textSize="30dp"
+            android:onClick="WhereAmI"
+            android:layout_gravity="center_horizontal" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:id="@+id/imagView"
+        android:text="Services"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:textColor="#D3D3D3"
+        android:background="#2e2e30"
+        android:textSize="30dp"
+        android:onClick="Services"
+        android:layout_gravity="center_horizontal" />
+
+
+
+
+
+</LinearLayout>
+

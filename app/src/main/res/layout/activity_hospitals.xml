@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    tools:context=".MainActivity">
+
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="246dp"
+        android:layout_marginTop="2dp"
+        android:scrollbars="horizontal" android:id="@+id/ScrollView">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:orientation="vertical"
+            android:id="@+id/linearLayout1"
+            android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:id="@+id/imageView11"
+            android:text="Appollo BGS hospital,| Mysore ★★★Adi Chunchanagiri Road, Kantharaj URS Road, Kuvempunagar,mysore, mysore, Karnataka, India, 570023"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:textColor="#D3D3D3"
+            android:background="#2e2e30"
+            android:textSize="15dp"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:id="@+id/imageView12"
+            android:text="All India Institute of Speech and Hearing | Mysore ★★★Manasa Gangothri, Mysore, India, mysore, Karnataka, India"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:textColor="#D3D3D3"
+            android:background="#2e2e30"
+            android:textSize="15dp"
+            android:layout_gravity="center_horizontal"
+            />
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:id="@+id/imageView13"
+                android:text="Basappa Memorial Hospital | Mysore ★★★★★22-B, Jayalakshmipuram, Vinobha Road, Mysore, mysore, Karnataka, India, 570012"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:textColor="#D3D3D3"
+                android:background="#2e2e30"
+                android:textSize="15dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:id="@+id/imageView14"
+                android:text="JSS Hospital | Mysore ★★★★★J S S UNIVERSITY JSS Medical Institutions Campus Sri Shivarathreeshwara Nagara, Mysore, mysore, Karnataka, India, 570 015"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:textColor="#D3D3D3"
+                android:background="#2e2e30"
+                android:textSize="15dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:id="@+id/imageView15"
+                android:text="JSS Hospital | Mysore ★★★★★J S S UNIVERSITY JSS Medical Institutions Campus Sri Shivarathreeshwara Nagara, Mysore, mysore, Karnataka, India, 570 015"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:textColor="#D3D3D3"
+                android:background="#2e2e30"
+                android:textSize="15dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:id="@+id/imageView16"
+                android:text="Columbia Asia Hospital | Mysore No. 85-86, Bangalore-Mysore Ring Road Junction Bannimantapa 'A' Layout, Siddiqui Nagar, Mandi Mohalla, Mysore, mysore, Karnataka, India, 5570 015"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:textColor="#D3D3D3"
+                android:background="#2e2e30"
+                android:textSize="15dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+            </LinearLayout>
+    </ScrollView>
+</LinearLayout>
